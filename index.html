@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Page Title - weatherApp</title> <!-- TODO: update page title -->
+    
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest"> <!-- TODO: Update web app manifest file -->
+    <link rel="icon" href="/favicon.ico"> <!-- TODO: Add favicon.ico file to project -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+    <form action="/" method="POST">
+    <label for ="cityInput">City Name</label>
+    <input type="text" id="cityInput" name="cityName">
+    <button type="submit">submit</button>
+</form>
+    <!-- Content -->
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script> <!-- TODO: Add Modernizr js -->
+    <script src="app.js"></script> <!-- TODO: Update app entry point -->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="app.js"></script>
+</body>
+</html>
